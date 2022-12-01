@@ -1,4 +1,38 @@
 body {
+  display: flex;
   max-width: 960px;
   margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  max-height: 400px;
+  height: auto;
+  margin: 50px;
+}
+
+.square {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  background-color: blueviolet;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.animated-square {
+  background-color: palevioletred;
+}
+
+.btn {
+  margin-top: 50px;
+  width: 100px;
+  height: 75px;
+  background-color: aqua;
 }
